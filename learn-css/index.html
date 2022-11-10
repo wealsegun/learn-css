@@ -34,11 +34,11 @@
     </header>
 
     <main>
-      <section>
+      <section class="padding-block-900">
         <div class="container">
           <div class="even-columns">
-            <div class="fs-primary-heading fw-bold">
-              <h1>Bring everyone together to build better products.</h1>
+            <div >
+              <h1 class="fs-primary-heading fw-bold">Bring everyone together to build better products.</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
                 iste. Praesentium quod quia repellat quasi, amet nulla
@@ -54,7 +54,7 @@
         </div>
       </section>
 
-      <section>
+      <section class="padding-block-900">
         <div class="container">
           <div class="even-columns">
             <div>
@@ -101,13 +101,13 @@
         </div>
       </section>
 
-      <section class="carousel">
-        <h2 class="fs-secondary-heading">What they've said</h2>
+      <section class="carousel padding-block-700">
+        <h2 class="fs-secondary-heading fw-bold">What they've said</h2>
         <!-- Carousel here -->
         <button class="button">Get Started</button>
       </section>
 
-      <section class="cta | bg-primary-400 text-neutral-100">
+      <section class="cta | bg-accent-400 text-neutral-100 padding-block-700">
         <div class="container">
           <div class="even-columns">
             <div>
@@ -121,12 +121,13 @@
       </section>
     </main>
 
-    <footer class="bg-neutral-900 text-neutral-100">
+    <footer class="padding-block-700 bg-neutral-900 text-neutral-100">
       <div class="container">
         <div class="even-columns">
           <div>
             <a href="#"><img src="./images/logo.svg" alt="" srcset="Manage"></a>
-            <ul role="list" aria-label="social link">
+            <!-- aria-label="social link" -->
+            <ul aria-label="" aria role="list" > 
               <li><a href="#"><img src="./images/logo.svg" alt="" srcset="Manage"></a></li>
               <li><a aria-label="facebook" href="#"></a></li>
               <li><a aria-label="youtube" href="#"></a></li>
@@ -137,18 +138,24 @@
           </div>
           <div>
             <nav class="footer-nav">
-              <ul role="list">
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+              <ul aria-label="Footer" role="list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Community</a></li>
+                <li><a href="">Privacy Policy</a></li>
               </ul>
             </nav>
           </div>
-          <div></div>
+          <div>
+            <form action="">
+              <input type="email">
+              <button>Go</button>
+              <p>Copyright 2022. All Rights Reserved</p>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
